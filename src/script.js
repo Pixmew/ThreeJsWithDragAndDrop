@@ -25,7 +25,7 @@ material.color = new THREE.Color(0xff0000)
 // Mesh
 for(var i = 0 ; i < 100 ; i++)
 {
-    const sphere = new THREE.Mesh(geometry,new THREE.MeshLambertMaterial({color:Math.random()*0xffffff}))
+    const sphere = new THREE.Mesh(geometry,new THREE.MeshStandardMaterial({color:Math.random()*0xffffff}))
     sphere.position.x = Math.random() * 10 - 5;
     sphere.position.y = Math.random() * 10 - 5;
     sphere.position.z = Math.random() * 10 - 5;
